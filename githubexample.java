@@ -10,6 +10,12 @@ public class githubexample{
 		}
 		return n;
 	}
+	public static void print(ArrayList<Integer> p){
+		for(int i = 0; i < p.size(); i++){
+			System.out.print(p.get(i)+", ");
+		}
+		System.out.println();
+	}
 	public static void main(String[] args){
 
 	}
